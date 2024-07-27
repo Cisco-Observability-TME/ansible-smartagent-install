@@ -1,0 +1,23 @@
+all:
+  hosts:
+    smartagent-host-1:
+      ansible_host: 54.82.95.69
+      ansible_username: ubuntu 
+      ansible_password: ins3965!
+      ansible_become: yes
+      ansible_become_method: sudo
+      ansible_become_password: ins3965!
+    smartagent-host-2:
+      ansible_host: <IP_ADDRESS_2>
+      ansible_username: <USERNAME_2>
+      ansible_password: <PASSWORD_2>
+      ansible_become: yes
+      ansible_become_method: sudo
+      ansible_become_password: <BECOME_PASSWORD_2>
+    smartagent-host-3:
+      ansible_host: <IP_ADDRESS_3>
+      ansible_username: <USERNAME_3>
+      ansible_password: <PASSWORD_3>
+      ansible_become: yes
+      ansible_become_method: sudo
+      ansible_become_password: <BECOME_PASSWORD_3>
