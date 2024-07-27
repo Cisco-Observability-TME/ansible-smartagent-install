@@ -1,4 +1,3 @@
-```markdown
 # Ansible Playbook for Deploying Cisco AppDynamics Smart Agent
 
 This repository contains an Ansible playbook for deploying the Cisco AppDynamics Smart Agent on multiple hosts. The playbook supports installation on both Debian and RedHat-based systems.
