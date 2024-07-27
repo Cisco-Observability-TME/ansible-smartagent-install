@@ -1,0 +1,10 @@
+# vars.yml
+smart_agent:
+  controller_url: 'CONTROLLER URL HERE, JUST THE BASE URL'
+  account_name: 'Account Name Here'
+  account_access_key: 'YOUR ACCES KEY HERE'
+  fm_service_port: '443' # We need 443 or 8080 depending on prem or cloud.
+  ssl: true
+
+smart_agent_package_debian: 'appdsmartagent_64_linux_24.6.0.2143.deb'  # or the appropriate package name
+smart_agent_package_redhat: 'appdsmartagent_64_linux_24.6.0.2143.rpm'  # or the appropriate package name
