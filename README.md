@@ -63,7 +63,7 @@ Define the Smart Agent configuration details in the `vars.yml` file.
 
 ```yaml
 smart_agent:
-  controller_url: 'CONTROLLER URL HERE, JUST THE BASE URL'
+  controller_url: 'CONTROLLER URL HERE, JUST THE BASE URL' # o11y.saas.appdynamics.com
   account_name: 'Account Name Here'
   account_access_key: 'YOUR ACCESS KEY HERE'
   fm_service_port: '443' # Use 443 or 8080 depending on your environment.
